@@ -1,0 +1,24 @@
+{
+  "name": "suparise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abderrahimazza/suparise-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abderrahimazza/suparise-landing-page/issues"
+  },
+  "homepage": "https://github.com/abderrahimazza/suparise-landing-page#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
