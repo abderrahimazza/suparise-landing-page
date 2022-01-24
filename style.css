@@ -7,7 +7,7 @@
 header{
     backdrop-filter: blur(3px);
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s !important;
 }
 nav{
     height: 95px;
@@ -32,7 +32,7 @@ nav .menu ul li{
 }
 nav .menu ul a{
     color: #1A202C;
-    transition: 0.2s ease;
+    transition: 0.2s ease !important;
 }
 nav .menu ul a:hover{
     text-decoration: none;
@@ -347,7 +347,7 @@ nav button:hover{
     box-shadow: 0 3px 6px rgba(0,0,0,.17);
     background: linear-gradient(90deg,#9340fa,#0085ff);
     cursor: pointer;
-    transition: .5s;
+    transition: .5s ease !important;
 }
 .started button:hover{
     background: linear-gradient(90deg,#332678,#7147ec);
@@ -419,7 +419,7 @@ nav button:hover{
     background-color: #f4f4f4a3;
 }
 .faq .card-header button{
-    transition: all 0.2s;
+    transition: all 0.2s !important;
     padding: 1rem;
     border-radius: 1rem;
     font-weight: 700;
@@ -436,7 +436,7 @@ nav button:hover{
     display: inline-block;
     vertical-align: middle;
     opacity: 1;
-    transition: transform 0.2s ease 0s;
+    transition: transform 0.2s ease 0s !important;
     transform: rotate(0deg);
 }
 .faq .card-header h2 .test{
@@ -446,7 +446,7 @@ nav button:hover{
     display: inline-block;
     vertical-align: middle;
     opacity: 1;
-    transition: transform 0.2s ease 0s;
+    transition: transform 0.2s ease 0s !important;
     transform: rotate(-180deg);
 }
 
@@ -471,7 +471,7 @@ footer ul{
 }
 footer ul li{
     margin-bottom: 0.375rem;
-    transition: .2s ease;
+    transition: .2s ease !important;
 }
 footer .second ul li:hover,
 footer .third ul li:hover{
@@ -498,7 +498,7 @@ footer .fourth ul li{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease !important;
 }
 footer .fourth ul li i{
     color: #3377ff;
