@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/abderrahimazza/suparise-landing-page/issues"
   },
-  "homepage": "https://github.com/abderrahimazza/suparise-landing-page#readme",
+  "homepage": "https://abderrahimazza.github.io/suparise-landing-page",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
